@@ -52,6 +52,7 @@ nav a:hover {
 
 .content {
   background-color: #263159;
+  background-image: url("/assets/background.jpg");
   color: #fffbeb;
   margin-left: 200px;
 }
