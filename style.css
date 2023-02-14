@@ -1,0 +1,164 @@
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+nav ul {
+  padding-inline-start: 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+nav a:hover {
+  color: #f1f1f1;
+}
+
+.content {
+  background-color: #263159;
+  color: #fffbeb;
+  margin-left: 200px;
+}
+
+footer {
+  background-color: black;
+  color: #fffbeb;
+  margin-left: 200px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* ----------------- PAGE HOME -----------------*/
+
+.apex-pro-league {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px 16px 16px;
+  padding-top: 16px;
+}
+
+.patch-update {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 16px 0 16px;
+  padding-bottom: 32px;
+}
+
+.apex-pro-league-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+.apex-pro-league-container .scoreCardContainer {
+  background-color: white;
+  margin: 16px;
+  background-color: #495579;
+}
+
+.scoreCardContainer .teamContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scoreCardContainer .date {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 8px;
+  margin: 8px;
+}
+
+.scoreCardContainer .statusContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 8px;
+  margin-right: 8px;
+  margin-left: 64px;
+}
+
+.teamContainer .logo {
+  margin-right: 0;
+}
+
+.teamContainer .teamName {
+  margin-left: 8px;
+}
+
+.teamContainer .score {
+  margin-right: 8px;
+  margin-left: 64px;
+}
+
+.logo img {
+  width: 64px;
+  height: 64px;
+}
+
+.patch-update-container {
+  display: flex;
+  background-color: #495579;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.patch-update-container h3 {
+  margin: 16px;
+}
+
+.patch-update-container p {
+  margin: 16px;
+}
+
+.patch-update-container .section-video {
+  margin: 16px;
+}
+
+footer {
+  background-color: black;
+  color: #fffbeb;
+  padding: 16px;
+}
