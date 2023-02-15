@@ -9,4 +9,4 @@
 
 ## Design
 
-https://miro.com/welcomeonboard/VXduUHQ3blpWZ1padEw1U0RzYWFtYTRxUDRCcFJFdDlERVRiZ[…]JWXZrenwzNDU4NzY0NTQ0MTU3NzAyNDgwfDI=?share_link_id=479878786053
+[miro](https://miro.com/app/board/uXjVPphYS48=/?share_link_id=266915680822)
