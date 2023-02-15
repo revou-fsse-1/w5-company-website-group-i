@@ -18,6 +18,11 @@ body {
   margin: 0;
 }
 
+main {
+  display: flex;
+  background-image: url("/assets/background.jpg");
+}
+
 nav {
   height: 100%;
   width: 200px;
@@ -51,36 +56,42 @@ nav a:hover {
 }
 
 .content {
-  background-color: #263159;
-  background-image: url("/assets/background.jpg");
   color: #fffbeb;
-  margin-left: 200px;
+  margin: 50px 200px 300px 400px;
+  opacity: 95%;
 }
 
 footer {
-  background-color: black;
-  color: #fffbeb;
+  bottom: 0;
+  background-color: #111;
+  color: #818181;
   margin-left: 200px;
+  padding: 16px;
 }
 
 footer p {
   margin: 0;
 }
 
-/* ----------------- PAGE HOME -----------------*/
+/* ----------------- PAGE NEWS -----------------*/
 
 .apex-pro-league {
   display: flex;
   flex-direction: column;
   margin: 0 16px 16px 16px;
-  padding-top: 16px;
+  padding: 0 32px 32px 32px;
+  /*background-image: linear-gradient(#474e68, #50577a);*/
+  background-color: #474e68;
+  border-radius: 6px;
 }
 
 .patch-update {
   display: flex;
   flex-direction: column;
-  margin: 16px 16px 0 16px;
-  padding-bottom: 32px;
+  margin: 0 16px 16px 16px;
+  padding: 0 32px 32px 32px;
+  background-color: #474e68;
+  border-radius: 6px;
 }
 
 .apex-pro-league-container {
@@ -93,9 +104,15 @@ footer p {
 }
 
 .apex-pro-league-container .scoreCardContainer {
-  background-color: white;
   margin: 16px;
-  background-color: #495579;
+  background-color: #404258;
+  border-radius: 6px;
+}
+
+.apex-pro-league-container .scoreCardContainer:hover {
+  box-shadow: 2px 2px 12px 2px rgb(0 0 0 / 50%);
+  background-color: #6b728e;
+  cursor: pointer;
 }
 
 .scoreCardContainer .teamContainer {
@@ -139,11 +156,19 @@ footer p {
 
 .patch-update-container {
   display: flex;
-  background-color: #495579;
+  background-color: #404258;
   margin-left: 64px;
   margin-right: 64px;
-  margin-top: 32px;
+  margin-top: 16px;
   margin-bottom: 32px;
+  border-radius: 6px;
+}
+
+.patch-update-container:hover {
+  background-color: #6b728e;
+  color: #f1f1f1;
+  box-shadow: 2px 2px 12px 2px rgb(0 0 0 / 50%);
+  cursor: pointer;
 }
 
 .patch-update-container h3 {
@@ -156,10 +181,4 @@ footer p {
 
 .patch-update-container .section-video {
   margin: 16px;
-}
-
-footer {
-  background-color: black;
-  color: #fffbeb;
-  padding: 16px;
 }
