@@ -1,0 +1,100 @@
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 1140px) {
+  .patch-update-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .home-icon {
+    padding: 16px;
+  }
+
+  .course-icon {
+    padding: 16px;
+  }
+
+  .news-icon {
+    padding: 16px;
+  }
+
+  .community-icon {
+    padding: 16px;
+  }
+
+  nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    justify-content: space-around;
+  }
+
+  nav ul li {
+    list-style: none;
+  }
+
+  nav a {
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 1rem;
+  }
+
+  body {
+    max-width: 480px;
+    margin: auto;
+  }
+
+  .content {
+    margin: 0;
+  }
+
+  main {
+    margin-left: 0;
+  }
+
+  footer {
+    padding-left: 0;
+  }
+
+  .apex-pro-league > h2 {
+    padding-left: 16px;
+  }
+
+  .patch-update-container {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .patch-update > h2 {
+    padding-left: 16px;
+  }
+
+  .patch-update-container .section-video {
+    max-width: 90%;
+  }
+}
