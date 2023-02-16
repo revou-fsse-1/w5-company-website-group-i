@@ -1,1 +1,234 @@
-home
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>APEX Community Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/main.js" defer></script>
+    <link rel="icon" href="./assets/favicon" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img src="./assets/hamburger-line.png" alt="hamburger line icon" />
+        </div>
+
+        <div class="logo">
+          <img src="/assets/apex logo.png" alt="Logo" />
+        </div>
+
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="course">course</a></li>
+          <li><a href="/news">news</a></li>
+          <li><a href="community">community</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="introduction-section">
+      <div class="bg">
+        <img src="/assets/apex1.jpg" alt="apex background" />
+      </div>
+      <div class="center">
+        <h1>RANK UP FAST IN APEX LEGENDS</h1>
+        <p>
+          we are providing legal cheat to own in the revamped ranked mode.<br /><br />
+          learn from pro-made video courses that go into a lot more depth than
+          any Youtube channel out there.
+        </p>
+        <button class="course-button">Courses info</button>
+        <button class="contact-button">Contact us</button>
+      </div>
+    </section>
+
+    <div class="courses-header">
+      <h2>Apex Courses</h2>
+      <button>All - 5</button>
+    </div>
+
+    <section class="grid-container">
+      <div class="box box1">
+        <img src="/assets/a1.jpg" alt="a1" />
+        <h3>General Courses</h3>
+        <p>Apex Courses</p>
+      </div>
+      <div class="box box2">
+        <img src="/assets/a2.jpg" alt="a2" />
+        <h3>Weapon Courses</h3>
+        <p>Apex Courses</p>
+      </div>
+      <div class="box box3">
+        <img src="/assets/a3.jpg" alt="a3" />
+        <h3>Aim Mechanic Courses</h3>
+        <p>Apex Courses</p>
+      </div>
+    </section>
+
+    <section class="community">
+      <div class="community-img"><img src="/assets/community.jpg" /></div>
+      <h3>EVENT</h3>
+      <p>Join us! for event event event</p>
+    </section>
+
+    <section class="form-section">
+      <h4>Join us!</h4>
+      <form>
+        <fieldset>
+          <legend>Personal data</legend>
+          <div>
+            <label for="fullname"> Full Name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Input your full name"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Input your e-mail"
+            />
+          </div>
+
+          <div>
+            <p>Are you living in indonesia?</p>
+            <input
+              type="radio"
+              id="option-1"
+              name="residence"
+              value="1"
+              checked
+            />
+            <label for="option-1">Yes</label>
+            <input type="radio" id="option-2" name="residence" value="0" />
+            <label for="option-2">No</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Apex information</legend>
+          <div>
+            <p>Did enjoy our website community?</p>
+            <input
+              type="radio"
+              value="yes"
+              name="enjoy-community"
+              id="yes-community"
+            />
+            <label for="yes-dream">yes</label>
+            <input
+              type="radio"
+              value="no"
+              name="enjoy-community"
+              id="no-community"
+            />
+            <label for="no-community">no</label>
+          </div>
+
+          <div>
+            <p>what do you think of Apex Legends Community?</p>
+            <input
+              type="checkbox"
+              value="1"
+              name="opinon"
+              id="dream-wonderful"
+            />
+            <label for="dream-wonderful">Wonderful</label>
+            <input type="checkbox" value="2" name="opinon" id="dream-scary" />
+            <label for="dream-scary">Scary</label>
+            <input type="checkbox" value="3" name="opinon" id="dream-not" />
+            <label for="dream-not">Not needed</label>
+          </div>
+
+          <div>
+            <p>What apex can do to improve the game?</p>
+            <input
+              type="radio"
+              id="improve-1"
+              name="improve-game"
+              value="1"
+              checked
+            />
+            <label for="improve-1">bring down cheater</label>
+            <input type="radio" id="improve-2" name="improve-game" value="0" />
+            <label for="improve-2">more free stuff</label>
+            <input type="radio" id="improve-3" name="improve-game" value="0" />
+            <label for="improve-3">nothing</label>
+          </div>
+
+          <div>
+            <label for="story">Tell us what apex can improve!</label>
+            <textarea
+              id="story"
+              name="story"
+              rows="3"
+              cols="33"
+              placeholder="tell us your idea!"
+            ></textarea>
+          </div>
+
+          <div>
+            <p>Upload your latest game clip!</p>
+            <input
+              type="file"
+              id="avatar"
+              name="avatar"
+              accept="image/png, image/jpeg"
+            />
+          </div>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- <section class="grid-container">
+      <div class="course-container">
+        <div class="course-picture">
+          <img src="/assets/aa" alt="general courses background image" />
+        </div>
+        <h3>General Courses</h3>
+        <p>Apex Courses</p>
+        <div class="star-01">
+          <img src="/" alt="star" />
+        </div>
+      </div>
+
+      <div class="course-container">
+        <div class="course-picture">
+          <img
+            src="/assets/apex-weapon-tier-list.png"
+            alt="apex weapon tier list"
+          />
+        </div>
+        <h3>Weapon Courses</h3>
+        <p>Apex Courses</p>
+        <div class="star-01">
+          <img src="/" alt="star" />
+        </div>
+      </div>
+
+      <div class="course-container">
+        <div class="course-picture">
+          <img src="/assets/apex-aim.jpg" alt="apex aim" />
+        </div>
+        <h3>Aim Mechanic Courses</h3>
+        <p>Apex Courses</p>
+        <div class="star-01">
+          <img src="/" alt="star" />
+        </div>
+      </div>
+    </section> -->
+  </body>
+</html>
