@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>APEX Community Web</title>
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/responsive.css" />
     <script src="/main.js" defer></script>
     <link rel="icon" href="/assets/apex logo.png" type="image/x-icon" />
   </head>
@@ -17,64 +18,58 @@
     <header>
       <nav>
         <!-- <div>
-          <img src="./assets/hamburger-line.png" alt="hamburger line icon" />
-        </div> -->
+                <img src="./assets/hamburger-line.png" alt="hamburger line icon" />
+              </div> -->
+        <div class="desktop">
+          <div class="logo-nav">
+            <img src="/assets/apex logo main.png" alt="Logo" />
+          </div>
 
-        <div class="logo-nav">
-          <img src="/assets/apex logo main.png" alt="Logo" />
-        </div>
+          <div class="login">
+            <ul>
+              <li class="login-icon"><a href="/">LOGIN</a></li>
+              <li class="signup-icon"><a href="/">SIGN UP</a></li>
+            </ul>
+          </div>
 
-        <div class="login">
           <ul>
-            <li class="login-icon"><a href="/">LOGIN</a></li>
-            <li class="signup-icon"><a href="/">SIGN UP</a></li>
+            <li class="home-icon"><a href="/">Home</a></li>
+            <li class="course-icon"><a href="course">Course</a></li>
+            <li class="news-icon"><a href="/news">News</a></li>
+            <li class="community-icon"><a href="community">Community</a></li>
           </ul>
         </div>
-
-        <ul>
-          <li class="home-icon"><a href="/">Home</a></li>
-          <li class="course-icon"><a href="course">Course</a></li>
-          <li class="news-icon"><a href="/news">News</a></li>
-          <li class="community-icon"><a href="community">Community</a></li>
-        </ul>
+        <div class="mobile">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="course">Course</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="community">Community</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
-    
-    <section class="introduction-section">
-      <div class="bg">
-        <img src="/assets/apex1.jpg" alt="apex background" />
-      </div>
-      <div class="center">
-        <p>
-          Apex Legends is a free-to-play hero shooter game where <br /><br />
-          legendary competitors battle for glory, fame, and fortune on the
-          fringes of the Frontier.
-        </p>
-      </div>
-    </section>
+
+    <main>
+      <section class="introduction-section">
+        <div class="bg">
+          <h1>
+            Apex Legends is a free-to-play hero shooter game where legendary
+            competitors battle for glory, fame, and fortune on the fringes of
+            the Frontier.
+          </h1>
+        </div>
+        <!-- <div class="center">
+            <img src="/assets/apex1.jpg" alt="apex background" />
+          <button class="course-button">Courses info</button>
+          <button class="contact-button">Contact us</button>
+        </div> -->
+      </section>
 
     <div class="courses-header">
       <h2>Apex Courses</h2>
       <button>All - 5</button>
     </div>
-
-    <section class="flex-container">
-      <div class="box1">
-        <img src="/assets/a1.jpg" alt="a1" />
-        <h3>General Courses</h3>
-        <p>Apex Courses</p>
-      </div>
-      <div class="box1">
-        <img src="/assets/a2.jpg" alt="a2" />
-        <h3>Weapon Courses</h3>
-        <p>Apex Courses</p>
-      </div>
-      <div class="box1">
-        <img src="/assets/a5.jpg" alt="a3" />
-        <h3>Aim Mechanic Courses</h3>
-        <p>Apex Courses</p>
-
-      </div>
 
       <section class="flex-container">
         <div class="box1">
@@ -270,13 +265,10 @@
     </main>
 
     <footer>
-      <img src="/assets/apex logo.png" alt="apex logo" />
+      <img src="/assets/apex logo main.png" alt="apex logo" />
       <p>
         This website is not affiliated with or endorsed by Valve Corporation,
         <br /><br />
-        Blizzard Entertainment, Activision, Epic Games, <br /><br />
-        Riot Games, 343 Industries or any other gaming company and/or their
-        affiliates. <br /><br />
         All trademarks, images, gameplay videos and sounds appearing on the site
         are the property of their respective owners. <br /><br />
         Apex community publishes content under the fair-use doctrine.

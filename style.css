@@ -71,11 +71,12 @@ main {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   bottom: 0;
   background-color: #111;
   color: #818181;
   padding-left: 200px;
-  width: 100%;
 }
 
 footer p {
@@ -84,7 +85,8 @@ footer p {
 
 footer img {
   height: 75px;
-  width: 75x;
+  width: 75px;
+  padding: 8px;
 }
 
 /* ----------------- PAGE NEWS -----------------*/
@@ -190,6 +192,8 @@ footer img {
 
 .patch-update-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   background-color: #404258;
   position: relative;
   margin-left: 64px;
@@ -222,12 +226,6 @@ footer img {
   justify-content: center;
   max-width: 100%;
   height: auto;
-}
-
-footer {
-  background-color: black;
-  color: #fffbeb;
-  padding-left: 250px;
 }
 
 /* ----------------- MAIN -----------------*/
@@ -310,7 +308,9 @@ header .community-icon::before {
   padding-top: 0px;
   text-shadow: 0px 0px 6px rgb(0 0 0 / 16%);
   position: relative;
-  margin-bottom: 10em;
+  /*margin: 16px 16px 16px 16px;
+  padding: 32px 32px 32px 32px;*/
+
 }
 
 /* .center {
@@ -336,11 +336,20 @@ header .community-icon::before {
   background-repeat: no-repeat;
   color: white;
   width: 100%;
+  background-image: url("/assets/apex1.jpg");
 }
 
 .bg > img {
   /*width: 87%;*/
   border: 2px solid white;
+}
+
+.bg > h1 {
+  margin: 200px 100px 200px 100px;
+  background-color: black;
+  color: yellow;
+  opacity: 90%;
+  font-size: 3rem;
 }
 
 /* .courses-header {
@@ -361,9 +370,11 @@ header .community-icon::before {
 
 .flex-container {
   display: flex;
-  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   gap: 50px;
-  margin: 16px;
+  /*margin: 16px;*/
   padding: 32px;
   width: 100%;
 }
