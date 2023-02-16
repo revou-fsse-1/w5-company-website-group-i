@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: poppins;
+}
+
+
 h1 {
   font-size: 64px;
   display: flex;
@@ -48,7 +55,7 @@ nav a {
   padding: 6px 6px 6px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: white;
   display: block;
 }
 
@@ -72,6 +79,13 @@ footer {
 
 footer p {
   margin: 0;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+footer img {
+  height: 75px;
+  width: 75x;
 }
 
 /* ----------------- PAGE NEWS -----------------*/
@@ -190,27 +204,33 @@ footer {
   padding: 16px;
 }
 
+/* ----------------- MAIN -----------------*/
+
 .introduction-section {
-  background-size: 100% 100%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   color: black;
   width: 100%;
-  height: 100px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 0px;
   text-shadow: 0px 0px 6px rgb(0 0 0 / 16%);
-  margin-left: 200px;
+  margin-left: 250px;
   position: relative;
   padding-bottom: 30em;
+  border: 1px solid black;
+  
 }
 
-.center {
-  position: absolute;
-  top: 25%;
+/* .center {
+  display: inline-block;
+  position: relative;
+  bottom: 100px;
+  right: 270px;
   width: 100%;
   text-align: center;
   font-size: 80px;
@@ -218,18 +238,16 @@ footer {
   text-transform: uppercase;
   text-align: center;
   font-weight: 300;
-  right: 100px;
-}
+  max-width: fit-content;
+} */
 
 .bg {
-  opacity: 0.5;
+  opacity: 1;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   color: black;
   width: 100%;
-  height: 100vh;
-}
 
 .bg > img {
   width: 100%;
@@ -246,15 +264,13 @@ footer {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  padding: 10px;
-  gap: 50px;
-  padding: 50px 130px;
+  grid-template-columns: repeat(3, 3fr)
+  padding: 10px:
   align-items: center;
   padding-left: 220px;
 }
 
 .form-section {
-  padding-inline-start: 200px;
+
+  margin-inline-end: auto;
 }
