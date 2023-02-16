@@ -10,16 +10,13 @@
     <title>APEX Community Web</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/responsive.css" />
-    <script src="/main.js" defer></script>
+    <script src="/script.js" defer></script>
     <link rel="icon" href="/assets/apex logo.png" type="image/x-icon" />
   </head>
 
   <body>
     <header>
       <nav>
-        <!-- <div>
-                <img src="./assets/hamburger-line.png" alt="hamburger line icon" />
-              </div> -->
         <div class="desktop">
           <div class="logo-nav">
             <img src="/assets/apex logo main.png" alt="Logo" />
@@ -27,24 +24,24 @@
 
           <div class="login">
             <ul>
-              <li class="login-icon"><a href="/">LOGIN</a></li>
-              <li class="signup-icon"><a href="/">SIGN UP</a></li>
+              <li class="login-icon"><a href="#">LOGIN</a></li>
+              <li class="signup-icon"><a href="#">SIGN UP</a></li>
             </ul>
           </div>
 
           <ul>
             <li class="home-icon"><a href="/">Home</a></li>
-            <li class="course-icon"><a href="course">Course</a></li>
+            <li class="course-icon"><a href="#">Course</a></li>
             <li class="news-icon"><a href="/news">News</a></li>
-            <li class="community-icon"><a href="community">Community</a></li>
+            <li class="community-icon"><a href="#">Community</a></li>
           </ul>
         </div>
         <div class="mobile">
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="course">Course</a></li>
+            <li><a href="#">Course</a></li>
             <li><a href="/news">News</a></li>
-            <li><a href="community">Community</a></li>
+            <li><a href="#">Community</a></li>
           </ul>
         </div>
       </nav>
@@ -59,11 +56,6 @@
             the Frontier.
           </h1>
         </div>
-        <!-- <div class="center">
-            <img src="/assets/apex1.jpg" alt="apex background" />
-          <button class="course-button">Courses info</button>
-          <button class="contact-button">Contact us</button>
-        </div> -->
       </section>
 
       <div class="courses-header">
@@ -221,47 +213,11 @@
             </div>
           </fieldset>
 
-          <button type="submit" class="form-submit">Submit</button>
+          <button onclick="sayHello()" type="submit" class="form-submit">
+            Submit
+          </button>
         </form>
       </section>
-
-      <!-- <section class="grid-container">
-        <div class="course-container">
-          <div class="course-picture">
-            <img src="/assets/aa" alt="general courses background image" />
-          </div>
-          <h3>General Courses</h3>
-          <p>Apex Courses</p>
-          <div class="star-01">
-            <img src="/" alt="star" />
-          </div>
-        </div>
-  
-        <div class="course-container">
-          <div class="course-picture">
-            <img
-              src="/assets/apex-weapon-tier-list.png"
-              alt="apex weapon tier list"
-            />
-          </div>
-          <h3>Weapon Courses</h3>
-          <p>Apex Courses</p>
-          <div class="star-01">
-            <img src="/" alt="star" />
-          </div>
-        </div>
-  
-        <div class="course-container">
-          <div class="course-picture">
-            <img src="/assets/apex-aim.jpg" alt="apex aim" />
-          </div>
-          <h3>Aim Mechanic Courses</h3>
-          <p>Apex Courses</p>
-          <div class="star-01">
-            <img src="/" alt="star" />
-          </div>
-        </div>
-      </section> -->
     </main>
 
     <footer>
