@@ -300,8 +300,8 @@ header .community-icon::before {
   /* background-position: center;
   background-repeat: no-repeat; */
   color: black;
-  height: 780px;
-  /* display: flex; */
+  width: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -310,25 +310,22 @@ header .community-icon::before {
   position: relative;
   /*margin: 16px 16px 16px 16px;
   padding: 32px 32px 32px 32px;*/
-
 }
 
 /* .center {
-  position: absolute;
-  text-align: center;
+  display: inline-block;
+  position: relative;
   bottom: 100px;
   right: 270px;
   width: 100%;
-  color: white;
-  background-color: grey;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  text-align: center;
+  font-size: 80px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  max-width: fit-content;
 } */
-
-.center p {
-  margin-left: ;
-}
 
 .bg {
   opacity: 1;
