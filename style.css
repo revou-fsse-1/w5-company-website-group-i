@@ -1,5 +1,6 @@
 h1 {
   font-size: 64px;
+  display: flex;
 }
 
 h2 {
@@ -209,7 +210,7 @@ footer {
 
 .center {
   position: absolute;
-  top: 50px;
+  top: 25%;
   width: 100%;
   text-align: center;
   font-size: 80px;
