@@ -97,4 +97,12 @@
   .patch-update-container .section-video {
     max-width: 90%;
   }
+
+  .bg > h1 {
+    margin: 20px 10px 20px 10px;
+    background-color: black;
+    color: yellow;
+    opacity: 90%;
+    font-size: 1.9rem;
+  }
 }

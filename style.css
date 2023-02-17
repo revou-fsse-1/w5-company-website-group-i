@@ -373,7 +373,7 @@ header .community-icon::before {
   justify-content: space-around;
   gap: 50px;
   /*margin: 16px;*/
-  padding: 32px;
+  /*padding: 32px;*/
   width: 100%;
 }
 
@@ -446,6 +446,11 @@ p {
   text-align: center;
 }
 
+.community-img {
+  display: flex;
+  justify-content: space-around;
+}
+
 .community-img > img {
   /* background-size: ;
   background-position: center center;
@@ -453,8 +458,8 @@ p {
   color: black;
   width: 95%;
   border: 2px solid white;
-  margin-left: 48px;
-  margin-right: 48px;
+  /*margin-left: 48px;*/
+  /*margin-right: 48px;*/
 }
 
 .form-section {
